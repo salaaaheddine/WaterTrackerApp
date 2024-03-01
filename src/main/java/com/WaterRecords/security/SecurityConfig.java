@@ -11,8 +11,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
-
 import com.WaterRecords.service.UserService;
+
 
 @Configuration
 @EnableWebSecurity
@@ -21,12 +21,20 @@ public class SecurityConfig {
     @Autowired
     private UserService userService;
 
+    /**
+     * @param http
+     * @return
+     * @throws Exception
+     */
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         http
             .csrf(Customizer.withDefaults())
             .authorizeHttpRequests(authorize -> authorize
                 .anyRequest().authenticated()
+            )  .formLogin(form -> form
+            .defaultSuccessUrl("/dashboard", true) 
+            .permitAll()
             )
             .httpBasic(Customizer.withDefaults())
             .formLogin(Customizer.withDefaults());
@@ -57,4 +65,5 @@ public class SecurityConfig {
             }
         };
     }
+    
 }
