@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Water Record Graph</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <!-- Chart.js CDN -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
@@ -18,16 +21,24 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link active" th:href="@{/dashboard}">Dashboard</a>
+                    <a class="nav-link" th:href="@{/dashboard}">Dashboard</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link active" th:href="@{/graph}">Graph</a>
+                <li class="nav-item active">
+                    <a class="nav-link" th:href="@{/graph}">Graph</a>
                 </li>
             </ul>
         </div>
     </nav>
-    <div>
-        <canvas id="waterRecordChart" width="800" height="400"></canvas>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-body">
+                        <canvas id="waterRecordChart" width="800" height="400"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script th:inline="javascript">
