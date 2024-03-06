@@ -37,7 +37,7 @@ The Water Tracker App is a digital tool developed to assist individuals in monit
 
   - #### Docker
     ![Alt Text](https://github.com/salaaaheddine/WaterTrackerApp/blob/main/readmeimgs/Docker.png)
-    
+
     Docker is a platform that allows developers to package, distribute, and run applications within isolated environments called containers. Containers encapsulate everything an application needs to run, including the code, runtime, system tools, libraries, and settings, ensuring consistency and portability across different environments. Docker simplifies the process of building, shipping, and deploying applications by abstracting away the underlying infrastructure and providing a standardized way to manage application dependencies. It enables faster development cycles, improved collaboration between teams, and enhanced scalability and reliability of applications in production environments.
 
   - #### PostgreSQL
@@ -54,9 +54,29 @@ The Water Tracker App is a digital tool developed to assist individuals in monit
     - Implement client-side logic using JavaScript to handle user interactions, validate input, and update the UI dynamically.
 
   - ### Back-end Development:
-    - Define the data model for the water records using JPA entities in Spring Boot.
-    - Implement RESTful APIs to handle CRUD operations for managing water records, such as recording water intake and retrieving historical data.
-    - Set up controllers to map incoming HTTP requests to appropriate service methods and return JSON responses.
+    #### 1. User and Water Record Entities
+   - Define the `User` entity with attributes like username, password (encrypted with BCrypt), email, etc.
+   - Create the `WaterRecord` entity with attributes such as date, quantity, and a many-to-one relationship with the `User` entity to associate water records with users.
+
+    #### 2. Custom Spring Security Configuration
+      - Implement a custom `UserDetailsService` to load user-specific data, including the encrypted password, from the database.
+
+    #### 3. Authentication and Authorization
+      - Implement authentication mechanisms such as login endpoints using Spring Security.
+
+    #### 4. Controller Layer
+      - Define RESTful API endpoints for handling user authentication, user registration, and CRUD operations on water records.
+      - Implement controller methods to map incoming HTTP requests to corresponding service methods and return appropriate responses, including success or error messages.
+
+    #### 5. Service Layer
+      - Implement service methods to encapsulate business logic related to user management, authentication, and water record management.
+      - Use service classes to interact with repositories for persisting and retrieving user and water record data from the database.
+      - Ensure that service methods are transactional to maintain data integrity and consistency.
+
+    #### 6. Repository Layer
+      - Define repositories for the `User` and `WaterRecord` entities to perform CRUD operations and query the database.
+      - Use Spring Data JPA repositories to leverage built-in methods for common database operations like saving, updating, deleting, and querying entities.
+
   - ### Database Configuration:
     - Configure PostgreSQL as the database for storing water records.
     - Define database tables, columns, and relationships based on the data model specified in the JPA entities.
