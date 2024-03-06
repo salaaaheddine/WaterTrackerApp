@@ -19,11 +19,21 @@ The Water Tracker App is a digital tool developed to assist individuals in monit
 
 - ### Front End
   - #### HTML-CSS-JAVASCRIPT
+    ![Alt Text](https://github.com/salaaaheddine/WaterTrackerApp/edit/main/readmeimgs/HtmlCssJs.jpeg)
+    This project utilizes the following technologies:
+
+    **HTML:** HTML (Hypertext Markup Language) is the standard markup language for creating web pages and web applications.
+    **CSS:** CSS (Cascading Style Sheets) is a style sheet language used for describing the presentation of a document written in HTML.
+    **JavaScript:** JavaScript is a programming language that enables interactive web pages and dynamic content. It is commonly used for client-side scripting.
+    
   - #### BOOTSTRAP
-  - #### Graph.js
+    ![Alt Text](https://github.com/salaaaheddine/WaterTrackerApp/edit/main/readmeimgs/Bootstrap.jpeg)
+    **Bootstrap** is a popular front-end framework for developing responsive and mobile-first websites. It provides pre-designed components and utilities to streamline the development process.
+    
 - ### Back End
   - #### SpringBoot
   - #### Docker
+  - #### PostgreSQL
 
     
 
