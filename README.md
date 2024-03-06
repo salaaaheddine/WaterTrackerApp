@@ -46,8 +46,8 @@ The Water Tracker App is a digital tool developed to assist individuals in monit
 
 ## Project Workflow
   - ### Project Setup:
-    -Set up your development environment with the necessary tools and IDEs for front-end and back-end development.
-    -Initialize a new Spring Boot project using Spring Initializr and configure it with the required dependencies, including web, JPA, and PostgreSQL.
+    - Set up your development environment with the necessary tools and IDEs for front-end and back-end development.
+    - Initialize a new Spring Boot project using Spring Initializr and configure it with the required dependencies, including web, JPA, and PostgreSQL.
   - ### Front-end Development:
     - Design the user interface (UI) of the water tracker app using HTML, CSS, and Bootstrap.
     - Create responsive layouts and components for recording water intake, displaying water history, and navigating between pages.
