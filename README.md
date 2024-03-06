@@ -19,7 +19,7 @@ The Water Tracker App is a digital tool developed to assist individuals in monit
 
 - ### Front End
   - #### HTML-CSS-JAVASCRIPT
-    ![Alt Text](https://github.com/salaaaheddine/WaterTrackerApp/edit/main/readmeimgs/HtmlCssJs.jpeg)
+    ![Alt Text](https://github.com/salaaaheddine/WaterTrackerApp/blob/main/readmeimgs/HtmlCssJs.jpeg)
     This project utilizes the following technologies:
 
     **HTML:** HTML (Hypertext Markup Language) is the standard markup language for creating web pages and web applications.
@@ -27,13 +27,19 @@ The Water Tracker App is a digital tool developed to assist individuals in monit
     **JavaScript:** JavaScript is a programming language that enables interactive web pages and dynamic content. It is commonly used for client-side scripting.
     
   - #### BOOTSTRAP
-    ![Alt Text](https://github.com/salaaaheddine/WaterTrackerApp/edit/main/readmeimgs/Bootstrap.jpeg)
+    ![Alt Text](https://github.com/salaaaheddine/WaterTrackerApp/blob/main/readmeimgs/bootstrap.jpg)
     **Bootstrap** is a popular front-end framework for developing responsive and mobile-first websites. It provides pre-designed components and utilities to streamline the development process.
     
 - ### Back End
   - #### SpringBoot
+    ![Alt Text](https://github.com/salaaaheddine/WaterTrackerApp/blob/48bc19b4bc9d3011d7da71354ff1487de36d412b/readmeimgs/Docker.png)
+
   - #### Docker
+    ![Alt Text](https://github.com/salaaaheddine/WaterTrackerApp/blob/48bc19b4bc9d3011d7da71354ff1487de36d412b/readmeimgs/Docker.png)
+
   - #### PostgreSQL
+    ![Alt Text](https://github.com/salaaaheddine/WaterTrackerApp/blob/48bc19b4bc9d3011d7da71354ff1487de36d412b/readmeimgs/Docker.png)
+
 
     
 
