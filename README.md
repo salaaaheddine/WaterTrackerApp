@@ -55,27 +55,27 @@ The Water Tracker App is a digital tool developed to assist individuals in monit
 
   - ### Back-end Development:
     #### 1. User and Water Record Entities
-   - Define the `User` entity with attributes like username, password (encrypted with BCrypt), email, etc.
-   - Create the `WaterRecord` entity with attributes such as date, quantity, and a many-to-one relationship with the `User` entity to associate water records with users.
+    - Define the `User` entity with attributes like username, password (encrypted with BCrypt), email, etc.
+    - Create the `WaterRecord` entity with attributes such as date, quantity, and a many-to-one relationship with the `User` entity to associate water records with users.
 
     #### 2. Custom Spring Security Configuration
-      - Implement a custom `UserDetailsService` to load user-specific data, including the encrypted password, from the database.
+    - Implement a custom `UserDetailsService` to load user-specific data, including the encrypted password, from the database.
 
     #### 3. Authentication and Authorization
-      - Implement authentication mechanisms such as login endpoints using Spring Security.
+    - Implement authentication mechanisms such as login endpoints using Spring Security.
 
     #### 4. Controller Layer
-      - Define RESTful API endpoints for handling user authentication, user registration, and CRUD operations on water records.
-      - Implement controller methods to map incoming HTTP requests to corresponding service methods and return appropriate responses, including success or error messages.
+    - Define RESTful API endpoints for handling user authentication, user registration, and CRUD operations on water records.
+    - Implement controller methods to map incoming HTTP requests to corresponding service methods and return appropriate responses, including success or error messages.
 
     #### 5. Service Layer
-      - Implement service methods to encapsulate business logic related to user management, authentication, and water record management.
-      - Use service classes to interact with repositories for persisting and retrieving user and water record data from the database.
-      - Ensure that service methods are transactional to maintain data integrity and consistency.
+    - Implement service methods to encapsulate business logic related to user management, authentication, and water record management.
+    - Use service classes to interact with repositories for persisting and retrieving user and water record data from the database.
+    - Ensure that service methods are transactional to maintain data integrity and consistency.
 
     #### 6. Repository Layer
-      - Define repositories for the `User` and `WaterRecord` entities to perform CRUD operations and query the database.
-      - Use Spring Data JPA repositories to leverage built-in methods for common database operations like saving, updating, deleting, and querying entities.
+    - Define repositories for the `User` and `WaterRecord` entities to perform CRUD operations and query the database.
+    - Use Spring Data JPA repositories to leverage built-in methods for common database operations like saving, updating, deleting, and querying entities.
 
   - ### Database Configuration:
     - Configure PostgreSQL as the database for storing water records.
