@@ -6,9 +6,25 @@ The Water Tracker App is a user-friendly web application designed to facilitate 
 
 ## Table of Content
 
-- General Context
-- Used Technologies
-- Project Workflow
-- Project Implementation
+- ### General Context
+- ### Used Technologies
+- ### Project Workflow
+- ### Project Implementation
+
+## General Context
+
+The Water Tracker App is a digital tool developed to assist individuals in monitoring and maintaining their daily water intake levels. By allowing users to easily log the amount of water consumed throughout the day, the app helps promote hydration awareness and encourages healthier habits. Through features such as personalized dashboards, historical data visualization, and interactive graphs, users can gain insights into their hydration patterns and track progress over time. With its user-friendly interface and cross-device compatibility, the Water Tracker App aims to support individuals in achieving their hydration goals and fostering overall well-being.
+
+## Used Technologies
+
+- ### Front End
+  - #### HTML-CSS-JAVASCRIPT
+  - #### BOOTSTRAP
+  - #### Graph.js
+- ### Back End
+  - #### SpringBoot
+  - #### Docker
+
+    
 
 
