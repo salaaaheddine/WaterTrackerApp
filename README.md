@@ -1,4 +1,4 @@
-### Water Tracker App
+# Water Tracker App
 
 ## Overview
 
