@@ -37,6 +37,7 @@ The Water Tracker App is a digital tool developed to assist individuals in monit
 
   - #### Docker
     ![Alt Text](https://github.com/salaaaheddine/WaterTrackerApp/blob/main/readmeimgs/Docker.png)
+    
     Docker is a platform that allows developers to package, distribute, and run applications within isolated environments called containers. Containers encapsulate everything an application needs to run, including the code, runtime, system tools, libraries, and settings, ensuring consistency and portability across different environments. Docker simplifies the process of building, shipping, and deploying applications by abstracting away the underlying infrastructure and providing a standardized way to manage application dependencies. It enables faster development cycles, improved collaboration between teams, and enhanced scalability and reliability of applications in production environments.
 
   - #### PostgreSQL
